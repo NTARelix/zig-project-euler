@@ -1,11 +1,7 @@
 const std = @import("std");
+const problem1 = @import("./problem1.zig");
 
 pub fn main() !void {
-    var sum: u64 = 0;
-    for (0..1000) |num| {
-        if (num % 3 == 0 or num % 5 == 0) {
-            sum += num;
-        }
-    }
-    try std.io.getStdOut().writer().print("{d}", .{sum});
+    const stdout = std.io.getStdOut().writer();
+    try stdout.print("answer 1: {}\n", .{problem1.getAnswer()});
 }
