@@ -1,3 +1,19 @@
 # Zig - Project Euler
 
-My attempt at learning the basics of [Zig](https://ziglang.org/) by solving some projects on [Project Euler](https://projecteuler.net)
+My attempt at learning the basics of [Zig] by solving some projects on [Project Euler]
+
+## Prerequisites
+
+[Install Zig] (tested on Windows with version 0.13.0-dev.46+3648d7df1 at the time of writing)
+
+## Running
+
+A single command will calculate all solutions:
+
+```
+zig build run
+```
+
+[Install Zig]: https://ziglang.org/download/
+[Project Euler]: https://projecteuler.net
+[Zig]: https://ziglang.org/
