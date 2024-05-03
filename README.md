@@ -1,6 +1,6 @@
 # Zig - Project Euler
 
-My attempt at learning the basics of [Zig] by solving some projects on [Project Euler]
+My attempt at learning the basics of [Zig] by solving some problems on [Project Euler]
 
 ## Prerequisites
 
