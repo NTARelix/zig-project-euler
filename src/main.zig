@@ -9,3 +9,7 @@ pub fn main() !void {
     try stdout.print("answer 2: {}\n", .{problem2.getAnswer()});
     try stdout.print("answer 3: {}\n", .{problem3.getAnswer()});
 }
+
+test {
+    std.testing.refAllDecls(@This());
+}
