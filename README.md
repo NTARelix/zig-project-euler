@@ -14,6 +14,14 @@ A single command will calculate all solutions:
 zig build run
 ```
 
+## Testing
+
+A single command will run all tests:
+
+```
+zig build test
+```
+
 [Install Zig]: https://ziglang.org/download/
 [Project Euler]: https://projecteuler.net
 [Zig]: https://ziglang.org/
