@@ -19,7 +19,7 @@ zig build run
 A single command will run all tests:
 
 ```
-zig build test
+zig build test --summary all
 ```
 
 [Install Zig]: https://ziglang.org/download/
